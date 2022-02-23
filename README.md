@@ -3,7 +3,7 @@
 Usefull net ressources
 
 # System benchmark
-https://bench.sh : Usefull script for benchmarking various things on linux systems
+https://bench.sh : Usefull script for benchmarking various things on linux systems. Non exhaustive.
 
 # Docker
 https://blog.stephane-robert.info/post/docker-reverse-image/ : How image is built ?
