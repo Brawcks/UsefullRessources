@@ -16,6 +16,8 @@ https://www.2ndquadrant.com/en/blog/postgresql-fsync-off-warning-in-config-file/
 
 https://pgtune.leopard.in.ua/ : Simple Postgresql Tuning tool
 
+https://postgresqlco.nf/doc/fr : All parameters explained
+
 # Debian
 
 https://packages.debian.org/search?keywords=parallel : Usefull package to execute repetitive tasks using multiple threads
