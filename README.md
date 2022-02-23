@@ -8,6 +8,9 @@ https://bench.sh : Usefull script for benchmarking various things on linux syste
 # Docker
 https://blog.stephane-robert.info/post/docker-reverse-image/ : How image is built ?
 
+# Kubernetes
+https://rancher.com/ : Usefull cluster management tool, which does not bring any limitations
+
 # PostgreSQL
 https://www.2ndquadrant.com/en/blog/postgresql-fsync-off-warning-in-config-file/ : Fsync off usefull for testing databases, performance gap
 
