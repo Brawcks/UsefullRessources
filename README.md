@@ -10,4 +10,5 @@ https://blog.stephane-robert.info/post/docker-reverse-image/ : How image is buil
 
 # PostgreSQL
 https://www.2ndquadrant.com/en/blog/postgresql-fsync-off-warning-in-config-file/ : Fsync off usefull for testing databases, performance gap
+
 https://pgtune.leopard.in.ua/ : Simple Postgresql Tuning tool
