@@ -12,3 +12,7 @@ https://blog.stephane-robert.info/post/docker-reverse-image/ : How image is buil
 https://www.2ndquadrant.com/en/blog/postgresql-fsync-off-warning-in-config-file/ : Fsync off usefull for testing databases, performance gap
 
 https://pgtune.leopard.in.ua/ : Simple Postgresql Tuning tool
+
+# Debian
+
+https://packages.debian.org/search?keywords=parallel : Usefull package to execute repetitive tasks using multiple threads
