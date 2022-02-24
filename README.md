@@ -21,3 +21,7 @@ https://postgresqlco.nf/doc/fr : All parameters explained
 # Debian
 
 https://packages.debian.org/search?keywords=parallel : Usefull package to execute repetitive tasks using multiple threads
+
+# Servers
+
+https://github.com/pimox/pimox7 : ProxmoxVE6 Fork for Raspberry. Interesting in case of RPI Clusters
