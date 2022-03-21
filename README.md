@@ -25,3 +25,4 @@ https://packages.debian.org/search?keywords=parallel : Usefull package to execut
 # Servers
 
 https://github.com/pimox/pimox7 : ProxmoxVE6 Fork for Raspberry. Interesting in case of RPI Clusters
+https://nginxproxymanager.com/ : Nginx proxy simplifié pour les mises en place simples. Utile pour certains tests
