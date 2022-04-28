@@ -10,6 +10,7 @@ https://blog.stephane-robert.info/post/docker-reverse-image/ : How image is buil
 
 # Kubernetes
 https://rancher.com/ : Usefull cluster management tool, which does not bring any limitations
+https://cloudnative-pg.io/ : Postgresql pour Kubernetes, avec HA
 
 # PostgreSQL
 https://www.2ndquadrant.com/en/blog/postgresql-fsync-off-warning-in-config-file/ : Fsync off usefull for testing databases, performance gap
