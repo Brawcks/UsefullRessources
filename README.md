@@ -2,6 +2,9 @@
 
 Usefull net ressources
 
+# News
+https://www.cert.ssi.gouv.fr/ : Updates about new system alerts (daily look)
+
 # System benchmark
 https://bench.sh : Usefull script for benchmarking various things on linux systems. Non exhaustive.
 
