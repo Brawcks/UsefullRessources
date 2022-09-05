@@ -1,34 +1,41 @@
-SMTP
+# SMTP
 
-1. Installation
+## Installation
 
 Installer les paquets suivants : 
 
+``` text
 $ apt install -y certbot mailutils libsasl2-2 sasl2-bin procmail postfix
+```
 
 Lors de l’installation de Postfix, laisser les valeurs par défaut
 
 Une fois l’installation faite, on passe à la modification des fichiers de configuration.
 
-2. Configuration
+## Configuration
 
-/etc/mailname
+**/etc/mailname**
 
 domain.com
 
 
-/etc/postfix/master.cf
+**/etc/postfix/master.cf**
 
 Modifier la ligne suivante : 
 
+```text
 smtp      inet  n       -       y       -       -       smtpd
+```
 
 Modifier par :
 
+```text
 smtp      inet  n       -       n       -       -       smtpd
+```
 
-/etc/postfix/main.cf
+**/etc/postfix/main.cf**
 
+```text
 # See /usr/share/postfix/main.cf.dist for a commented, more complete version
 
 
@@ -97,53 +104,68 @@ smtpd_tls_security_level = may
 broken_sasl_auth_clients = yes
 smtpd_sasl_authenticated_header = yes
 smtpd_recipient_restrictions = permit_mynetworks, permit_sasl_authenticated, reject_unauth_destination
+```
 
-/etc/postfix/header_check
+**/etc/postfix/header_check**
 
+```text
 /FROM:.*/ REPLACE From: <from>@domain.com
 /SENDER:.*/ REPLACE Sender: catchall@domain.com
+```
 
-/etc/postfix/sender_canonical_maps
+**/etc/postfix/sender_canonical_maps**
 
+```text
 /.+/  catchall@domain.com
+```
 
-/etc/postfix/sasl_passwd
+**/etc/postfix/sasl_passwd**
 
+```text
 [mail-domain-com.mail.protection.outlook.com]:25 catchall@domain.com:<mot_de_passe_ici>
+```
 
 Une fois ce fichier créé, créer le fichier db qui contiendra les identifiants via : 
 
-sudo postmap /etc/postfix/sasl_passwd
+`sudo postmap /etc/postfix/sasl_passwd`
 
-/etc/default/saslauthd
+**/etc/default/saslauthd**
 
 Modifier les lignes : 
 
+```text
 START=no
 MECHANISMS=""
+```
 
 Modifier en :
 
+```text
 START=yes
 MECHANISMS="sasldb"
+```
 
 Puis redémarrer le service : 
 
+```text
 /etc/init.d/saslauthd restart
+```
 
 Maintenant, on ajoute un utilisateur :
 
+```text
 echo <mot_de_passe_ici> | saslpasswd2 -p -c -u domain.com catchall
+```
 
 Pour tester la connexion :
 
-testsaslauthd -u catchall -r domain.com -p <mot_de_passe_ici>
+`testsaslauthd -u catchall -r domain.com -p <mot_de_passe_ici>`
 
 En cas d’erreur sur le fichier stockant les comptes, supprimez le, puis relancez la commande d’ajout d’utilisateur.
 
 On redémarre Postfix :
 
-sudo service postfix restart
+`sudo service postfix restart
 
 Installation terminée !
 
