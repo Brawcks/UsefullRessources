@@ -11,6 +11,8 @@ https://bench.sh : Usefull script for benchmarking various things on linux syste
 # Docker
 https://blog.stephane-robert.info/post/docker-reverse-image/ : How image is built ?
 
+https://github.com/piscue/docker-backup-scripts : Easy backup of Images, volumes and container config.
+
 # Kubernetes
 https://rancher.com/ : Usefull cluster management tool, which does not bring any limitations
 
