@@ -5,6 +5,10 @@ Usefull net ressources
 # News
 https://www.cert.ssi.gouv.fr/ : Updates about new system alerts (daily look)
 
+# Monitoring
+
+https://checkmk.com/ : Outil de monitoring système
+
 # System benchmark
 https://bench.sh : Usefull script for benchmarking various things on linux systems. Non exhaustive.
 
@@ -34,3 +38,7 @@ https://packages.debian.org/search?keywords=parallel : Usefull package to execut
 https://github.com/pimox/pimox7 : ProxmoxVE6 Fork for Raspberry. Interesting in case of RPI Clusters
 
 https://nginxproxymanager.com/ : Nginx proxy simplifié pour les mises en place simples. Utile pour certains tests
+
+# Security
+
+https://www.pingcastle.com/ : AD Security benchmark
