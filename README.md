@@ -2,6 +2,10 @@
 
 Usefull net ressources
 
+# Softwares
+
+https://ocsinventory-ng.org/?lang=fr : Dynamic inventory (Open Source)
+
 # News
 https://www.cert.ssi.gouv.fr/ : Updates about new system alerts (daily look)
 
