@@ -6,6 +6,8 @@ Usefull net ressources
 
 https://ocsinventory-ng.org/?lang=fr : Dynamic inventory (Open Source)
 
+https://www.combodo.com/itop : Gestion tickets et contrats IT (Open Source)
+
 # News
 https://www.cert.ssi.gouv.fr/ : Updates about new system alerts (daily look)
 
