@@ -29,3 +29,12 @@ sysctl -p
 
 # Now, define default route for container inside 192.168.100.0/24 network
 ip route add default via 192.168.100.1
+
+# Possible to auto add route when interface comes up : (example for on CT)
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+        address 192.168.100.113/24
+        post-up ip route add default via 192.168.100.1
