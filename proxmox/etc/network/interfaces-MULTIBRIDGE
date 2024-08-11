@@ -1,0 +1,31 @@
+auto lo
+iface lo inet loopback
+
+iface enp3s0 inet manual
+
+auto enp3s0
+iface enp3s0.100 inet manual
+        vlan-raw-device enp3s0
+
+auto vmbr0
+iface vmbr0 inet static
+        address 192.168.1.26/24
+        gateway 192.168.1.254
+        bridge-ports enp3s0
+        bridge-stp off
+        bridge-fd 0
+
+auto vmbr100
+iface vmbr100 inet static
+        address 192.168.100.1/24
+        bridge-ports enp3s0.100
+        bridge-stp off
+        bridge-fd 0
+
+### COMMENT HERE
+# Activate IPv4 forward on proxmox : 
+net.ipv4.ip_forward=1
+sysctl -p
+
+# Now, define default route for container inside 192.168.100.0/24 network
+ip route add default via 192.168.100.1
