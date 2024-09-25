@@ -48,3 +48,7 @@ https://nginxproxymanager.com/ : Nginx proxy simplifié pour les mises en place 
 # Security
 
 https://www.pingcastle.com/ : AD Security benchmark
+
+# AI
+
+https://www.databricks.com/fr/glossary/retrieval-augmented-generation-rag : RAG (AI private datastore retrieval)
