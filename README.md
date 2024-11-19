@@ -45,6 +45,8 @@ https://github.com/pimox/pimox7 : ProxmoxVE6 Fork for Raspberry. Interesting in 
 
 https://nginxproxymanager.com/ : Nginx proxy simplifié pour les mises en place simples. Utile pour certains tests
 
+https://opennebula.io/ : Datacenter manager - Proxmox Like
+
 # Security
 
 https://www.pingcastle.com/ : AD Security benchmark
