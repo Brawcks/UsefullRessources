@@ -57,6 +57,8 @@ https://opennebula.io/ : Datacenter manager - Proxmox Like
 
 https://www.pingcastle.com/ : AD Security benchmark
 
+https://docs.openappsec.io/ : Open source WAF powered by AI
+
 # AI
 
 https://www.databricks.com/fr/glossary/retrieval-augmented-generation-rag : RAG (AI private datastore retrieval)
