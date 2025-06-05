@@ -8,6 +8,8 @@ https://hardenad.net/ : Account tiering and objects management security oriented
 
 Usefull net ressources
 
+https://landscape.cncf.io/ : CNCF project list
+
 # Softwares
 
 https://ocsinventory-ng.org/?lang=fr : Dynamic inventory (Open Source)
