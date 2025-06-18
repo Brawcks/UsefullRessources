@@ -10,6 +10,8 @@ Usefull net ressources
 
 https://landscape.cncf.io/ : CNCF project list
 
+https://massgrave.dev/ : Usefull OSS
+
 # Softwares
 
 https://ocsinventory-ng.org/?lang=fr : Dynamic inventory (Open Source)
