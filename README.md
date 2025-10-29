@@ -21,7 +21,10 @@ https://www.combodo.com/itop : Gestion tickets et contrats IT (Open Source)
 https://netboxlabs.com/docs/netbox/ : Documentation réseau
 
 # News
+
 https://www.cert.ssi.gouv.fr/ : Updates about new system alerts (daily look)
+
+https://www.cisecurity.org/ : Hardening security guides
 
 # Monitoring
 
