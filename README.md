@@ -20,6 +20,8 @@ https://www.combodo.com/itop : Gestion tickets et contrats IT (Open Source)
 
 https://netboxlabs.com/docs/netbox/ : Documentation réseau
 
+https://mailpit.axllent.org/ : SMTP local pour les tests
+
 # News
 
 https://www.cert.ssi.gouv.fr/ : Updates about new system alerts (daily look)
